@@ -1,18 +1,18 @@
 #include<stdio.h>
  void selection_sort(int *A,int length){
-     int Min;
+     int min;
      int j,i;
      int temp;
      for(i=0;i<length-1;i++){
-          Min=i;
+          min=i;
          for( j=i+1;j<length;j++){
-             if(A[Min]>A[j]){
-               Min=j;
+             if(A[min]>A[j]){
+               min=j;
              }
          }
          temp=A[i];
-         A[i]=A[Min];
-         A[Min]=temp;
+         A[i]=A[min];
+         A[min]=temp;
          
      }
  }

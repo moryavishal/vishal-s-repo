@@ -19,7 +19,7 @@
 
 int main(){
     int size,i;
-	printf("enter the size of array :");
+	printf("enter the size of an array :");
 	scanf("%d",&size);
 	int arr[size];
 	
